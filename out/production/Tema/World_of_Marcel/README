@@ -1,0 +1,18 @@
+Cornea Nicolae-Cosmin
+322CC
+Gradul de dificultate al temei: mediu spre ridicat
+Timp alocat rezolvarii: 2 saptamani
+Modul de implementare:
+    Mai intai am implementat toate clasele specificate conform indicatiilor propuse in tema. In clasa Test am apelat
+metoda run si astfel a inceput jocul. Am creat niste metode pentru parsarea fisierelor json pentru a obtine povestile
+si conturile. Apoi am verificat modul de joc dorit: terminal, grafic sau hardcodat. In functie de modul ales am apelat
+metodele corespunzatoare. Mai intai am verificat credentialele, apoi am ales caracterul, dupa care s-a generat o mapa
+random pentru grafic si terminal, respectiv una predefinita pentru metoda hardcodata. Pentru terminal si grafic
+jucatorul se poate deplasa oriunde(nord,sud,est,vest), poate cumpara din magazine potiuni de viata sau mana, poate gasi
+monede pe casutele libere nevizitate sau se poate bate cu un inamic pe casutele specifice. In lupta cu inamicul poate
+alege sa foloseasca (daca are) potiuni de viata sau mana, sa foloseasca una dintre cele 3 tipuri de abilitati(fire,ice
+earth) sau poate ataca normal. Daca invinge inamicul continua jocul, altfel jocul se incheie. In plus, fiecare casuta
+nevizitata are cate o poveste. Scopul jocului este sa ajungi la casuta de finish. In metoda hardcodata am implementat
+un traseu predefinit, in care am cumparat o potiune de mana si una de viata de la magazin si am luptat cu un inamic,
+batalie in care am folosit atat toate potiunile, cat si toate abiliatile. Daca inamicul a fost infrant atunci
+jucatorul ajunge la final si castiga jocul.
